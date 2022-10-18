@@ -1,0 +1,82 @@
+
+body {
+    background-color: rgb(255, 227, 117);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: rgb(39, 16, 0);
+    height: 900px;
+    width: auto;
+    position: relative
+}
+
+#service-container {
+    flex: 0 0 100%;
+}
+
+.service-card {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    width: auto;
+    height: 650px;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+#area-container {
+    color: rgb(255, 237, 165);   
+}
+
+.area-card {
+    background-color: rgb(39, 16, 0);
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(255, 237, 165);
+    color: rgb(39, 16, 0)
+}
+
+#all-areas {
+    width: 820px;
+    height: 630px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#main-header {
+    background-color: rgba(255, 237, 165, 0.5);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guests-header,
+#areas-header {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#all-guests {
+    background-color: rgba(255, 237, 165, 0.5);
+    font-size: 20px;
+}
+
+img {
+    height: 50px;
+}
